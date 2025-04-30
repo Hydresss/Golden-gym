@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rutinas - Golden Gym</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #FFD700;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000000;
+      color: #FFD700;
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav {
+      background-color: #000;
+      text-align: center;
+    }
+    nav a {
+      color: #FFD700;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #FFD700;
+      color: #000;
+    }
+    section {
+      padding: 40px;
+      background-color: #111;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    .rutina {
+      background-color: #222;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2);
+    }
+    .rutina h3 {
+      font-size: 1.5rem;
+      color: #FFD700;
+    }
+    .dia {
+      margin-bottom: 20px;
+    }
+    .dia h4 {
+      color: #FFD700;
+      margin-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✅ ";
+      margin-right: 5px;
+    }
+    .imagen-rutina {
+      display: block;
+      margin: 30px auto;
+      width: 80%;
+      border: 3px solid #FFD700;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      color: #FFD700;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rutinas de Entrenamiento</h1>
+</header>
+
+<nav>
+  <a href="inicio.html">Inicio</a>
+  <a href="asesorias.html">Asesorías</a>
+  <a href="nutricion.html">Nutrición</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
+
+<section>
+  <h2>Programas semanales con ejercicios detallados</h2>
+  <img src="bb.jpg" alt="Rutinas" class="imagen-rutina" />
+
+  <!-- Rutina Fuerza -->
+  <div class="rutina">
+    <h3>💪 Rutina de Fuerza</h3>
+
+    <div class="dia">
+      <h4>Lunes: Pecho y Tríceps</h4>
+      <ul>
+        <li>Press banca plano – 4x6</li>
+        <li>Press inclinado con mancuernas – 3x8</li>
+        <li>Fondos en paralelas – 3x10</li>
+        <li>Press cerrado – 3x8</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Martes: Espalda y Bíceps</h4>
+      <ul>
+        <li>Dominadas – 4x6</li>
+        <li>Remo con barra – 4x8</li>
+        <li>Pull-over – 3x10</li>
+        <li>Curl bíceps barra Z – 3x10</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Miércoles: Piernas</h4>
+      <ul>
+        <li>Sentadilla libre – 4x6</li>
+        <li>Prensa – 3x10</li>
+        <li>Extensión de cuádriceps – 3x12</li>
+        <li>Peso muerto rumano – 3x8</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Jueves: Hombros y Abdomen</h4>
+      <ul>
+        <li>Press militar – 4x6</li>
+        <li>Elevaciones laterales – 3x10</li>
+        <li>Face pulls – 3x12</li>
+        <li>Plancha abdominal – 3x1 min</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Viernes: Full Body</h4>
+      <ul>
+        <li>Burpees – 4x10</li>
+        <li>Thrusters – 3x12</li>
+        <li>Pull-ups – 3x6</li>
+        <li>Mountain climbers – 3x30 seg</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Rutina Definición -->
+  <div class="rutina">
+    <h3>🔥 Rutina de Definición</h3>
+
+    <div class="dia">
+      <h4>Lunes: HIIT + Core</h4>
+      <ul>
+        <li>Saltos en caja – 4x15</li>
+        <li>Abdominales bicicleta – 4x30 seg</li>
+        <li>Escaladores – 4x30 seg</li>
+        <li>Russian twists – 3x20</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Martes: Tren superior + Cardio</h4>
+      <ul>
+        <li>Flexiones – 4x12</li>
+        <li>Remo TRX – 4x10</li>
+        <li>Comba – 5x1 min</li>
+        <li>Jumping jacks – 4x30 seg</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Miércoles: Zumba / Spinning</h4>
+      <ul>
+        <li>Sesión de 45 minutos</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Jueves: Circuito Funcional</h4>
+      <ul>
+        <li>Burpees – 3x15</li>
+        <li>Jump Squats – 3x15</li>
+        <li>Flexiones – 3x15</li>
+        <li>Plancha – 3x1 min</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Rutina Hipertrofia -->
+  <div class="rutina">
+    <h3>🏋️‍♀️ Rutina de Hipertrofia</h3>
+
+    <div class="dia">
+      <h4>Lunes: Pecho y Tríceps</h4>
+      <ul>
+        <li>Press plano – 4x10</li>
+        <li>Press inclinado – 4x10</li>
+        <li>Cruces en polea – 3x12</li>
+        <li>Fondos – 3x10</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Martes: Espalda y Bíceps</h4>
+      <ul>
+        <li>Jalón al pecho – 4x10</li>
+        <li>Remo máquina – 4x10</li>
+        <li>Curl alterno – 3x12</li>
+        <li>Curl martillo – 3x12</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Miércoles: Piernas y Glúteos</h4>
+      <ul>
+        <li>Sentadilla – 4x10</li>
+        <li>Prensa – 4x12</li>
+        <li>Hip thrust – 4x10</li>
+        <li>Elevaciones de talones – 3x20</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Rutina Funcional -->
+  <div class="rutina">
+    <h3>🤸‍♂️ Rutina Funcional</h3>
+
+    <div class="dia">
+      <h4>Lunes: Cuerpo completo</h4>
+      <ul>
+        <li>Sentadillas con salto – 3x15</li>
+        <li>Flexiones explosivas – 3x10</li>
+        <li>Planchas con toque – 3x20</li>
+      </ul>
+    </div>
+
+    <div class="dia">
+      <h4>Miércoles: Kettlebells + Core</h4>
+      <ul>
+        <li>Kettlebell swing – 3x15</li>
+        <li>Kettlebell snatch – 3x12</li>
+        <li>Crunch abdominal con pesa – 3x20</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Golden Gym. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
